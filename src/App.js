@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, CssBaseline, Divider, Fab, IconButton, Paper, Rating, Switch, TextField, ThemeProvider, Typography, createTheme } from '@mui/material';
+import { Avatar, Button, CssBaseline, Divider, Fab, IconButton, Paper, Rating, Switch, TextField, ThemeProvider, Typography, createTheme } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 import './App.css';
 import { useEffect, useState } from 'react';
