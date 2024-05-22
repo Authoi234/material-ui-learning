@@ -42,7 +42,7 @@ function App() {
       clearTimeout(id);
     }
   }, [submitting])
-  
+
   return (
     <ThemeProvider theme={darkMode ? theme2 : theme1}>
       <Switch onClick={() => setDarkMode(!darkMode)} />
@@ -76,7 +76,7 @@ function App() {
         }}>
           <CssBaseline />
           <HeroCard></HeroCard>
-          <Paper sx={{width: '100px', height: '100px', mt: '20px'}}>
+          <Paper sx={{ width: '100px', height: '100px', mt: '20px' }}>
 
           </Paper>
         </Paper>

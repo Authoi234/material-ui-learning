@@ -28,7 +28,7 @@ const HeroCard = () => {
                     </Typography>
                 </Box>
             </CardContent>
-            <IconButton sx={{border: '1px solid black'}}>
+            <IconButton sx={{ border: '1px solid black' }}>
                 <AddIcon></AddIcon>
             </IconButton>
         </Card>
